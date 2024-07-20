@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "downlevelIteration": true,
+    "typeRoots": [
+      "./@types"
+    ]
+  }
+}
