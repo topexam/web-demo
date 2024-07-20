@@ -3621,12 +3621,12 @@
     chakra-react-select "^4.7.6"
     react-datepicker "^6.6.0"
 
-"@topexam/web.lib.foundation@^0.0.15":
-  version "0.0.15"
-  resolved "https://npm.pkg.github.com/download/@topexam/web.lib.foundation/0.0.15/92ca964e43e2737c00dc62e0ea7b6fd12d7fb51c#92ca964e43e2737c00dc62e0ea7b6fd12d7fb51c"
-  integrity sha512-pedGWRFJhORoz7eZQ3nSdF5ycgsdos2fs8f4NYtxjoDCVhfTIqDsb7ho5lrRYJUBfbtW7oMZdnhkFCQJvgS8cA==
+"@topexam/web.lib.foundation@^0.0.16":
+  version "0.0.16"
+  resolved "https://npm.pkg.github.com/download/@topexam/web.lib.foundation/0.0.16/dc3a2829b6b81074e45e75e7a2574a3bb106f021#dc3a2829b6b81074e45e75e7a2574a3bb106f021"
+  integrity sha512-Ei9iR6gQ6W+LxO8BNWcICnDiX6grOSajT6UtPT2KRZUkQRICbpreu2ef+jbcN2qwy1Dvpdb8LGhri//pkct5dA==
 
-"@topexam/web.lib.network@^0.1.6":
+"@topexam/web.lib.network@^0.1.5":
   version "0.1.6"
   resolved "https://npm.pkg.github.com/download/@topexam/web.lib.network/0.1.6/5093d803e8ada99b90c8042a4e44c17c03157290#5093d803e8ada99b90c8042a4e44c17c03157290"
   integrity sha512-LWifKAli6UE+18T7CFdfBmFdAz9MlLh4Vnxnhng/lp2Lx5pm6iDhvM4ObFKVxuaRMBv2ETdxSaf+AA7PysS5jg==
