@@ -1,0 +1,7 @@
+.custom-page {
+    :global {
+        .react-pdf__Page__canvas {
+            @apply mx-auto border border-t-0;
+        }
+    }
+}
