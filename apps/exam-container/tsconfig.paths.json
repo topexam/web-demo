@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  }
+}

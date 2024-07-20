@@ -1,0 +1,107 @@
+{
+  "name": "@web/exam-container",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^2.0.0",
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "@tanstack/react-query": "^5.28.14",
+    "@topexam/web.lib.component": "^0.0.16",
+    "@topexam/web.lib.foundation": "^0.0.15",
+    "@topexam/web.lib.network": "^0.1.5",
+    "@topexam/web.lib.theme": "^0.0.9",
+    "@topexam/web.lib.util": "^0.0.21",
+    "framer-motion": "9.0.1",
+    "lodash.debounce": "^4.0.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-error-boundary": "^4.0.4",
+    "react-grid-container-query": "^0.0.7",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "recoil": "0.7.7",
+    "web-vitals": "^3.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@craco/craco": "^7.0.0",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "@tanstack/react-query-devtools": "^5.28.14",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.4.0",
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/node": "^18.11.19",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "autoprefixer": "^10.4.13",
+    "craco-esbuild": "^0.5.2",
+    "craco-module-federation": "^1.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest-dom": "^4.0.3",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+    "eslint-plugin-testing-library": "^5.10.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "react-app-alias": "^2.2.2",
+    "sass": "^1.58.0",
+    "serve": "^14.2.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5"
+  },
+  "resolutions": {
+    "strip-ansi": "6.0.0"
+  },
+  "scripts": {
+    "dev": "PORT=8080 craco start",
+    "dev:debug": "PORT=8888 craco start",
+    "start": "serve build",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "lint": "eslint --fix --ext .js,.ts,.tsx ./src --ignore-path .gitignore",
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\"",
+    "format": "npm run prettier -- --write"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "*.+(ts|tsx)": [
+      "yarn lint"
+    ]
+  }
+}

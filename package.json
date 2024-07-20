@@ -1,0 +1,20 @@
+{
+  "name": "@web/consumer",
+  "version": "0.0.0",
+  "author": {
+    "name": "Felix Nguyen",
+    "email": "im.felixng@gmail.com"
+  },
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "prepare:old": "lerna exec -- yarn install",
+    "clean": "lerna exec --ignore @web/boilerplate --parallel -- yarn clean",
+    "dev": "lerna run --ignore @web/boilerplate --parallel dev",
+    "build": "lerna run --ignore @web/boilerplate --parallel build",
+    "deploy": "lerna exec --ignore @web/boilerplate --parallel -- yarn deploy"
+  },
+  "devDependencies": {
+    "lerna": "6.1.0"
+  }
+}
