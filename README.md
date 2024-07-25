@@ -2,7 +2,7 @@
 
 A lightweight TopExam Web for purpose demonstration
 
-## Technology & Tools
+## Tools & Technologies
 
 We use some tools that fit with system requirements such as
 
